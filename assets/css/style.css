@@ -153,13 +153,13 @@ footer {
     display: none;
 }
 
-@media (min-width: 945px) and (max-width: 1225px) {
+@media (min-width: 768px) and (max-width: 1225px) {
     body {
-        padding: 0 64px;
+        padding: 0 32px;
     }
 }
 
-@media (min-width: 540px) and (max-width: 945px) {
+@media (min-width: 450px) and (max-width: 768px) {
     body {
         padding: 0 64px;
     }
@@ -197,9 +197,9 @@ footer {
     }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 450px) {
     body {
-        padding: 0 64px;
+        padding: 0 32px;
     }
 
     #nav-bar {
@@ -242,5 +242,9 @@ footer {
         width: 100%;
         margin-top: 32px;
         margin-bottom: 0px;
+    }
+
+    #stats {
+        grid-template-columns: 1fr;
     }
 }
